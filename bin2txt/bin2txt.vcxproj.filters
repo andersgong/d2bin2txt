@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bin2txt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="arena.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sounds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bodylocs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="playerclass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="storepage.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itemtypes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="armor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="armtype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="colors.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="events.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itemstatcost.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="properties.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="automagic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="automap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="belts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="elemtypes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chartemplate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="composit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DifficultyLevels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Experience.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamble.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hiredesc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hitclass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itemratio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lowqualityitems.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LvlMaze.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvlprest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LvlSub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lvltypes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LvlWarp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicPrefix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSuffix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissCalc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monai.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monitempercent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monmode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monseq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="montype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monumod.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monlvl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monplace.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monprop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objects.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objgroup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objmode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="objtype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pettype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plrmode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="plrtype.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="qualityitems.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RarePrefix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RareSuffix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shrines.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skillcalc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasureClassEx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueappellation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueitems.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniqueprefix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniquesuffix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UniqueTitle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="weapons.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="missiles.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skilldesc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skills.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="states.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monstats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monsounds.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="books.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="charstats.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="superuniques.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sets.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="setitems.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="runes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monstats2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monpreset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="monequip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="levels.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hireling.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gems.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cubemain.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stack.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skillscode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="itemscode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="misscode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skilldesccode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="operater.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="memmgr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
